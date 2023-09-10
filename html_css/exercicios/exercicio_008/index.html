@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de textos</title>
+    <style>
+        mark {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito </b>usando a tag "b" (sem semântica)</p>
+    <p>Nessa frase, tenho um <strong>termo em destaque </strong>usando a tag "strong"(com semântica) <strong>USAR ESSA</strong></p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag "i" (sem semântica)</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag "em" (com semântica) <strong>USAR ESSA</strong></p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: rgb(140, 255, 217);">um texto marcado</mark> usando a tag MARK.</p> <p><strong>Não usar no HTML paramêtros visuais, HTML é conteúdo, textos, hierarquias. CSS é forma, todo conteúdo visual será apresentado através do CSS</strong> inclusive estou usando a tag strong para marcar esse texto, pois a tag strong tem semântica</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark></p>
+    <p>Sinalizando marcações pela tag mark seria necessário ajustar a tag para todas as vezes que fosse necessário marcar algo.
+    <strong>MAAAAAAAAAAAS</strong> da pra fazer atráves da tag style que fica depois de title, mas ainda não é a melhor forma de se fazer isso</p>
+    <p>Texto grande e texto pequeno</p>
+    <p><small>texto pequeno</small></p>
+    <p><big>texto grande</big></p>
+    <p>tag small não é obsoleta e tag big é obseloleta</p>
+    <p><big>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ea voluptate molestiae fugit culpa illum? Libero eos sit fugiat, culpa neque eligendi exercitationem ullam numquam vitae, obcaecati provident. Ullam, tenetur.</big></p>
+    <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error quam sequi nisi laboriosam commodi accusamus, placeat vero consequuntur dolores facere provident exercitationem beatae nulla delectus nesciunt necessitatibus sint reprehenderit.</small></p>
+    <h2>Texto deletado</h2>
+    <p><del>Podemos marcar um texto como excluído para indicar que ele deve ser lido, mas não considerado.</del></p>
+    <h2>Texto inserido</h2>
+    <p><ins>Podemos marcar um texto como inserido para dar uma ênfase e indicar que ele foi adicionado depois.</ins></p>
+    <p><u>Existe também o sublinha usando a tag u, mas não tem semântica</u></p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <p>Comparação<sup>tag sup deixa o texto ou numero elevado</sup>Comparação</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    <p>Comparação<sup>tag sub deixa o texto ou numero abaixado</sup>Comparação</p>
+    
+</body>
+</html>
