@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em diversos tamanhos</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:  1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/Foto-g.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo audio</h1>
+    <p>aprender a colocar um audio</p>
+    <p>NÃO USE WAV PQ OS ARQUIVOS SÃO MUITO PESADOS</p>
+    <audio src="midia/Is This Really Happening_ - TrackTribe.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Is This Really Happening_ - TrackTribe.mp3" type="audio/mpeg">
+        <source src="midia/Is This Really Happening_ - TrackTribe.mp3" type="audio/ogg">
+        <source src="midia/Is This Really Happening_ - TrackTribe.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não é compativel com o arquivo de audio <a href="midia/Is This Really Happening_ - TrackTribe.mp3">clique aqui para baixar</a></p>
+        
+    </audio>
+</body>
+</html>
